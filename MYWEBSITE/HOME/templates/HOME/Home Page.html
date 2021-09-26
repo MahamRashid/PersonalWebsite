@@ -1,0 +1,20 @@
+{% load static %}
+
+<link
+    rel = "stylesheet"
+    type = "text/css"
+    href = "{% static 'HOME/css/bootstrap.css' %}"
+/>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maham Rashid</title>
+</head>
+<body>
+<h1>Hi, I'm Maham!</h1>
+<h2>I share my data science projects and learnings over here.</h2>
+<a href = "{% url 'About'%}">Go To About Page</a>
+</body>
+</html>

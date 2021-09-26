@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tuple.predict" />
+          <option value="tuple.sample" />
+          <option value="tuple.train" />
+          <option value="tuple.train_target_model" />
+          <option value="tuple.get_weights" />
+          <option value="tuple._model" />
+          <option value="tuple.get_gradients" />
+          <option value="list.dtype" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
